@@ -2,3 +2,13 @@ ul,li{
     display: inline;
     list-style: none;
 }
+
+#header1,#header2{
+    
+}
+
+svg{
+    margin-top: 18px;
+    margin-left: 27px;
+    color: rgb(10,125,255);
+}
