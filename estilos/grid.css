@@ -1,0 +1,37 @@
+.formato{
+  display: grid;
+  grid-template-areas: "header header header"
+                       "noticias noticias noticias"
+                       "maisLidas maisLias aside"
+                       "footer footer footer";
+}
+
+.item{
+  margin: 0 auto;
+}
+
+.header{
+  grid-area: header;
+  height: 100px;
+  background: yellow;
+}
+
+.noticias{
+  grid-area: noticias;
+}
+
+.maisLidas{
+  grid-area: maisLidas;
+}
+
+.aside{
+  grid-area: aside;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.grid{
+  display: grid;
+}
