@@ -1,38 +1,71 @@
-.formato{
-  display: grid;
-  grid-template-areas: "header header header"
-                       "noticias noticias noticias"
-                       "maisLidas maisLias aside"
-                       "footer footer footer";
+
+/*reset basico*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+         box-sizing: border-box;
+} 
+
+/*Container*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
 }
 
-.item{
-  margin: 0 auto;
+@media(min-width:1178px){
+  .container{
+    max-width: 1178px;
+    padding: 0;
+  }
 }
 
-.header{
-  grid-area: header;
-  height: 100px;
-  width:100%;
-  background: rgb(211, 211, 209);
+
+/*Linha*/
+
+.linha{
+  margin-left:-5px ;
+  margin-right:-5px ;
+}
+/* evitar que algum elemento flutue dentro dos campos*/
+/*e também tenha um tamaha menor que o connteudo*/
+.linha:before,
+.linha:after{
+  content: "";
+  display: table;
 }
 
-.noticias{
-  grid-area: noticias;
+.linha:after{
+  clear: both;
 }
 
-.maisLidas{
-  grid-area: maisLidas;
+/*Coluna*/
+.col{
+  display: inline-block;/*elementos irão flutuar para a esquerda*/
+  vertical-align: top;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  margin-right: -4px; /*rearanjando, á q o inlineblock tem um por default*/
+
+
+  *zoom: 1;
+  *display: inline;
 }
 
-.aside{
-  grid-area: aside;
+
+.teste{
+  background: burlywood;
+  padding: 5px;
+  text-align: center;
+  margin: 2px 0;
+  color: #fff;
 }
 
-.footer{
-  grid-area: footer;
-}
-
-.grid{
-  display: grid;
+.big{
+  height: 50px;
 }

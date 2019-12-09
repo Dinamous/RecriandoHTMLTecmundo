@@ -1,3 +1,18 @@
-.linhas-2{
-    grid-row: 1fr 1fr;
+/*Duas Colunas*/
+.col-2{
+    width: 50%;
+}
+
+@media(min-width:400px){
+    .col-2{
+        width: 50%;
+    }
+}
+
+
+/*Três Colunas*/
+@media(min-width:728px){
+    .col-3{
+        width: 33.3333%;
+    }
 }
