@@ -16,3 +16,25 @@
         width: 33.3333%;
     }
 }
+
+.col-6{
+    width: 16.6666%;
+}
+
+/*Quatro Colunas*/
+@media(min-width:992px){
+
+    .col-content{
+        width: 60%;
+    }
+    .col-aside{
+        width:40%;
+    }
+
+    .col-content2{
+        width: 65%;
+    }
+    .col-aside2{
+        width: 35%;
+    }
+}

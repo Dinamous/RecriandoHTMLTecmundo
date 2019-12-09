@@ -51,8 +51,7 @@
   padding-right: 5px;
   width: 100%;
   margin-right: -4px; /*rearanjando, á q o inlineblock tem um por default*/
-
-
+  
   *zoom: 1;
   *display: inline;
 }
@@ -65,7 +64,15 @@
   margin: 2px 0;
   color: #fff;
 }
+.subitem{
+  background: rgb(241, 81, 60);
+  padding: 5px;
+  text-align: center;
+  margin: 2px 0;
+  color: #fff;
+}
 
-.big{
-  height: 50px;
+.linhona{
+  background: crimson;
+  
 }
