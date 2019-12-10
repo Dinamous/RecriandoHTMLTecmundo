@@ -1,40 +1,57 @@
-/*Duas Colunas*/
-.col-2{
-    width: 50%;
+.topo{
+    height: 60%;
+    
+    width: 95%;
+    
 }
 
-@media(min-width:400px){
-    .col-2{
-        width: 50%;
-    }
+.subtopo{
+    height: 40%;
+    background: slateblue;
+    width: 95%;
+    border-top: 1px solid gray;
+}
+
+.logo{
+    height: 100%;
+    width: 15%;
+   
+
+}
+
+.search{
+    height: 100%;
+    width: 70%;
+   
+   
+
+}
+
+.anuncio{
+    height: 100%;
+    width: 15%;
+   margin-left: 125px;
+    
 }
 
 
-/*Três Colunas*/
-@media(min-width:728px){
-    .col-3{
-        width: 33.3333%;
-    }
+.flex{
+    display: flex;
 }
 
-.col-6{
-    width: 16.6666%;
+.linha{
+    flex-direction: row;
 }
 
-/*Quatro Colunas*/
-@media(min-width:992px){
-
-    .col-content{
-        width: 60%;
-    }
-    .col-aside{
-        width:40%;
-    }
-
-    .col-content2{
-        width: 65%;
-    }
-    .col-aside2{
-        width: 35%;
-    }
+.coluna{
+    flex-direction: column;
 }
+
+.centralizado-h{
+    justify-content: center;
+}
+
+.centralizado-v{
+    align-items: center;
+}
+

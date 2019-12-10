@@ -69,13 +69,64 @@
     font-weight: 400;
     line-height: 24px;
     padding: 8px 16px;
-    width: 100%;
     background-color: var(--search-input-background);
     border: 1px solid var(--search-input-border);
     border-radius: 4px;
     box-shadow: 0 0 0 0 #fff;
     transition: box-shadow .2s ease, border-color .2s ease, background-color .2s ease;
     padding-left: 48px;
+    width: 69%;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+svg{
+    color: rgb(10, 158, 255);
+    height: 84%;
     width: 80%;
+    margin-left: 10px;
+}
+
+input{
+    height:40px;
+    width: 100px;
+    margin-left:-15px;
+}
+
+.ponto{
+    background-color: #00893c;
+    border-radius: 9999px;
+    display: block;
+    height: 8px;
+    position: relative;
+    width: 10px;
+    margin-right: 18px;
+}
+
+.ponto-texto{
+    height: auto;
+}
+
+#titulo{
+    font-size: 11pt;
+    font-style: bold;
+    color: rgb(100 , 100, 100);
+}
+#subtitulo{
+    font-size: 7pt;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    color: gray;
+    margin-top: 3px;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    height: auto;
 }
 
