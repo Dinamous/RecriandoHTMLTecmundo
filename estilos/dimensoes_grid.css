@@ -1,57 +1,54 @@
-.topo{
+.topo {
     height: 60%;
-    
     width: 95%;
-    
 }
 
-.subtopo{
+.subtopo {
     height: 40%;
-    background: slateblue;
     width: 95%;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb( 233, 233, 233);
 }
 
-.logo{
+.logo {
     height: 100%;
     width: 15%;
-   
-
 }
 
-.search{
+.search {
     height: 100%;
     width: 70%;
-   
-   
-
 }
 
-.anuncio{
+.anuncio {
     height: 100%;
     width: 15%;
-   margin-left: 125px;
-    
+    margin-left: 125px;
 }
 
 
-.flex{
+/*=======================================*/
+
+.flex {
     display: flex;
 }
 
-.linha{
+.linha {
     flex-direction: row;
 }
 
-.coluna{
+.coluna {
     flex-direction: column;
 }
 
-.centralizado-h{
+.centralizado-h {
     justify-content: center;
 }
 
-.centralizado-v{
+.centralizado-v {
     align-items: center;
 }
 
+.tam10 {
+    height: 100%;
+    width: 5%;
+}

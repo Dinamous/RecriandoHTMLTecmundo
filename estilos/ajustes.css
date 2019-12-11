@@ -78,25 +78,28 @@
     width: 69%;
 }
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-svg{
+svg {
     color: rgb(10, 158, 255);
     height: 84%;
     width: 80%;
     margin-left: 10px;
 }
 
-input{
-    height:40px;
-    width: 100px;
-    margin-left:-15px;
+svg:hover {
+    color: rgb(19, 137, 216);
 }
 
-.ponto{
+input {
+    height: 40px;
+    width: 100px;
+    margin-left: -15px;
+}
+
+.ponto {
     background-color: #00893c;
     border-radius: 9999px;
     display: block;
@@ -106,16 +109,17 @@ input{
     margin-right: 18px;
 }
 
-.ponto-texto{
+.ponto-texto {
     height: auto;
 }
 
-#titulo{
+#titulo {
     font-size: 11pt;
     font-style: bold;
-    color: rgb(100 , 100, 100);
+    color: rgb(100, 100, 100);
 }
-#subtitulo{
+
+#subtitulo {
     font-size: 7pt;
     padding: 0;
     margin: 0;
@@ -124,9 +128,48 @@ input{
     margin-top: 3px;
 }
 
-h3{
+h3 {
     padding: 0;
     margin: 0;
     height: auto;
 }
 
+
+/*=============   MENU  ===============*/
+
+ul {
+    display: inline;
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    font-family: Source Sans Pro, sans-serif;
+    list-style: none;
+    margin: 0;
+}
+
+li,
+a {
+    height: 100%;
+    width: auto;
+    color: rgb(87, 87, 87);
+    margin: 0 7.5px;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline;
+}
+
+i {
+    height: auto;
+    width: auto;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+a:hover {
+    color: rgb(16, 135, 255);
+}
+
+
+/*===========================================*/
