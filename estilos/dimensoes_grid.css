@@ -1,3 +1,5 @@
+/**====== HEADER===========*/
+
 .topo {
     height: 60%;
     width: 95%;
@@ -7,6 +9,7 @@
     height: 40%;
     width: 95%;
     border-top: 1px solid rgb( 233, 233, 233);
+    box-shadow: 0 3px 2px -2px gray;
 }
 
 .logo {

@@ -1,0 +1,54 @@
+.nav-container {
+    display: grid;
+}
+
+.not1{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+}
+
+.not2{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+}
+
+.titulo{
+    height: auto;
+    width: auto;
+    font-size: 12pt;
+    margin-top: 12px;
+    color: rgb(19, 137, 216);
+}
+.subtitulo{
+    height: auto;
+    width: auto;
+    font-size: 22pt;
+    margin-top: 8px;
+}
+
+.subtitulo2{
+    height: auto;
+    width: auto;
+    font-size: 14pt;
+    margin-top: 8px;
+}
+
+.imagem{
+    width: 35%;
+}
+
+.textin{
+    width: 65%;
+
+}
+
+.subnoticia2{
+    margin-top: 10px;
+}
+
+.linhapag{
+    height: 100px;
+    background: blue;
+}
