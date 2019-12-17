@@ -1,0 +1,54 @@
+.maisLidas{
+    height: 1000px;
+   
+}
+
+.quarenta{
+    width: 33%;
+    background: cornflowerblue;
+}
+
+.sessenta{
+    width: 67%;
+}
+
+.tituloNot{
+    font-size: 17pt;
+}
+
+/*sessenta*/
+.linhatop{
+    height: 5%;
+    font-size: 12pt;
+}
+
+.linhanot{
+    height: 95%;
+    background: darkgreen;
+}
+
+.dias{
+    orientation: right;
+    padding-left:390px;
+}
+
+.divdias{
+    width: auto;
+    padding: 5px 15px;
+    height: auto;
+    color: rgb(126, 125, 125);
+    
+}
+
+.divdias:hover{
+    color: rgb(99, 111, 122);
+}
+
+.selec{
+    background: rgb(241, 245, 248);
+    border-radius: 5px;
+}
+
+
+
+/*quarenta*/

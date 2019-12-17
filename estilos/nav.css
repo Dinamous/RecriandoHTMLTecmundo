@@ -48,7 +48,34 @@
     margin-top: 10px;
 }
 
+
+/*========= linha e numeros ========*/
 .linhapag{
-    height: 100px;
-    background: blue;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.barra{
+    width: 90%;
+   
+}
+
+.numeros{
+    width: 10%;
+    height:auto;
+}
+
+hr { 
+    height: auto;
+  } 
+
+.num{
+    align-items: center;
+    font-size: 10pt;
+    height: 15px;
+    border:2px solid rgb(14, 102, 161);
+    width: 15px;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 90px;
 }
