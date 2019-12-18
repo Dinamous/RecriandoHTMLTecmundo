@@ -36,3 +36,12 @@ footer {
     background: red;
     grid-area: footer;
 }
+
+.rover:hover{
+    color: rgb(16, 135, 255);
+    cursor: pointer;
+}
+
+hr{
+    background: green;
+}

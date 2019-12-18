@@ -1,11 +1,11 @@
 .maisLidas{
-    height: 1000px;
+    height: auto;
    
 }
 
 .quarenta{
     width: 33%;
-    background: cornflowerblue;
+    height: auto;
 }
 
 .sessenta{
@@ -14,8 +14,40 @@
 
 .tituloNot{
     font-size: 17pt;
+    height: auto;
+    margin-top: 15px;
 }
 
+.subtitulo3{
+    height: auto;
+    width: auto;
+    font-size: 13pt;
+    margin-top: 8px;
+    color: rgb(29, 29, 29);
+}
+
+.titulo3{
+    height: auto;
+    width: auto;
+    font-size: 12pt;
+    margin-top: 12px;
+    color: rgb(138, 138, 138);
+}
+
+
+.marg{
+    padding-left: 15px;
+}
+
+.imagem2{
+    width: 50%;
+    height: auto;
+}
+
+.subnoticia3{
+    margin-top: 20px;
+    height: auto;
+}
 /*sessenta*/
 .linhatop{
     height: 5%;
@@ -23,8 +55,8 @@
 }
 
 .linhanot{
-    height: 95%;
-    background: darkgreen;
+    height: auto;
+
 }
 
 .dias{
@@ -49,6 +81,51 @@
     border-radius: 5px;
 }
 
+.linhanot1{
+    width: 50%; 
+    margin-left: 15px;
+}
+
+.linhanot2{
+    width: 50%;
+    margin-left: 15px;
+}
+
+
 
 
 /*quarenta*/
+.anunciamento{
+    background: rgb(241, 245, 248);
+    height: 100px;
+    width: 100%;
+    color: rgb(99, 111, 122);
+    padding: 10px;
+}
+
+.img3{
+    width: 35%;
+    height: 80%;
+}
+
+
+/*Ultimas Noticias*/
+
+.ultimasNot{
+    background: hotpink;
+    height: 500px;
+}
+
+.topz{
+    margin-top: 0;
+}
+
+.subnoticia4{
+    margin-top: 0;
+    height: auto;
+}
+
+.pub{
+    font-size: 10pt;
+    color: rgb(226, 172, 85);
+}

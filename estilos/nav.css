@@ -37,6 +37,7 @@
 
 .imagem{
     width: 35%;
+    height: auto;
 }
 
 .textin{
@@ -46,6 +47,7 @@
 
 .subnoticia2{
     margin-top: 10px;
+    height: auto;
 }
 
 
