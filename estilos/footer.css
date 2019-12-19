@@ -16,9 +16,7 @@
     padding: 20px;
 }
 
-.fundo2{
-    background: darkblue;
-}
+
 
 .tituloNot2{
     font-size: 13pt;
@@ -49,5 +47,31 @@
 
 /*===========================================*/
 .fundo1{
+    height: auto;
+}
+
+.fundo2{
+    height: auto;
+    background-color: rgb(199, 199, 199);
+}
+
+.logo2{
+    height: 25%;
+    width: auto;
+}
+
+.subtitulo5{
+    font-size: 12pt;
+    margin-left:35px ;
+    width: auto;
+}
+
+#COPY{
+        width: auto;
+        height: auto;
+}
+
+.f2{
+    display: inline;
     height: auto;
 }
