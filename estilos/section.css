@@ -6,10 +6,12 @@
 .quarenta{
     width: 33%;
     height: auto;
+    padding: 10px;
 }
 
 .sessenta{
     width: 67%;
+    padding: 10px;
 }
 
 .tituloNot{
@@ -112,8 +114,7 @@
 /*Ultimas Noticias*/
 
 .ultimasNot{
-    background: hotpink;
-    height: 500px;
+    height: auto;
 }
 
 .topz{
@@ -128,4 +129,17 @@
 .pub{
     font-size: 10pt;
     color: rgb(226, 172, 85);
+}
+
+/*==========================*/
+
+.img4{
+    width: 23%;
+    height: auto;
+}
+
+.subtitulo4{
+    font-size: 18pt;
+    height: auto;
+    margin-top: 15px;
 }

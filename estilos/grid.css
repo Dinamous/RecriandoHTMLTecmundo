@@ -33,8 +33,9 @@ section {
 }
 
 footer {
-    background: red;
+    background:rgb(238, 238, 238);
     grid-area: footer;
+  
 }
 
 .rover:hover{
@@ -42,6 +43,6 @@ footer {
     cursor: pointer;
 }
 
-hr{
-    background: green;
+.fundo2{
+    background-color: rgb(233, 237, 240);
 }

@@ -1,0 +1,53 @@
+.sessenta2{
+    width: 65%;
+   
+    padding: 20px;
+}
+
+.dez{
+    width: 15%;
+   
+    padding: 20px;
+}
+
+.dex{
+    width: 20%;
+    
+    padding: 20px;
+}
+
+.fundo2{
+    background: darkblue;
+}
+
+.tituloNot2{
+    font-size: 13pt;
+    height: auto;
+}
+
+.colun{
+
+    height: auto;
+}
+
+.col1{
+    width: 25%;
+}
+
+.ali{
+ height: auto;
+}
+
+.lin{
+    height: auto;
+    margin-top: 30px;
+}
+.lin:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/*===========================================*/
+.fundo1{
+    height: auto;
+}
